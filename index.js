@@ -70,7 +70,7 @@ function appMenu() {
                 {
                     type: "input",
                     name: "github",
-                    messaage: "Enter the engineers github user  name",
+                    message: "Enter the engineers github user  name",
                 },
             ])
                 .then(answers => {
