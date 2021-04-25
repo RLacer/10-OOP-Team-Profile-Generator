@@ -1,20 +1,40 @@
 * {
     box-sizing: border-box;
 }
+:root {
+  --blue: navy;
+  --yellow: lightyellow;
+  --lighter: bisque;
+
+
+}
 
 body {
     
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: var(--lighter);
       
   }
 
-h1 {
+.team-heading {
     padding: 40px;
-    background-color: #c7fef7;
+    background-color: var(--yellow);
     text-align: center;
-     color: Black;
+    color: var(--blue);
       
       }
+
+.card-header {
+  background-color: rgb(255, 166, 0);
+  color: var(--blue);
+}
+.card-body {
+  background-color: var(--yellow);
+}
+.list-group-item {
+background-color: var(--lighter);
+color: var(--blue)
+}
 
       
